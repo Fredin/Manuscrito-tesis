@@ -1,0 +1,23 @@
+project:
+  type: book
+
+book:
+  title: "Compartiendo peso: comunicación cinestésica y conexión interpersonal en la improvisación de contacto"
+  author: "Esteban Fredin Ortiz"
+  date: "5/5/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
