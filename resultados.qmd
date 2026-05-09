@@ -1,5 +1,4 @@
 ---
-title: "estudios"
+title: "Resultados"
 format: html
 ---
-

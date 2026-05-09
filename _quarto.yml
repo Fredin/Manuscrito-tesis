@@ -2,19 +2,25 @@ project:
   type: book
 
 book:
-  title: "Improvisando con(-)tacto: comunicación háptica y conexión interpersonal en la danza de improvisación de contacto"
-  author: "Esteban Fredin Ortiz"
-  date: "5/5/2025"
+  title: "Afinando el punto de(l) contacto: consciencia y sintonización intercinestésicas en la danza de improvisación de contacto"
+  author:
+  - name: Esteban Fredin Ortiz
+    orcid: 0000-0002-1881-0314
+    corresponding: true
+    email: esteban.fredin@tec.mx
+    affiliations:
+      - Tecnológico de Monterrey, Escuela de Humanidades y Educación
+  date: last-modified
   chapters:
     - index.qmd
     - introducción.qmd
-    - marco-teórico.qmd
+    - marco_teórico.qmd
     - metodología.qmd
-    - entrevistas.qmd
-    - estudios.qmd
+    - resultados.qmd
     - discusión.qmd
     - conclusiones.qmd
     - referencias.qmd
+    - apéndice_entrevistas.qmd
 
 bibliography: references.bib
 
