@@ -10,5 +10,29 @@
   },
   "references.qmd": {
     "references.html": "a2afb29e"
+  },
+  "introducción.qmd": {
+    "introducción.html": "1097d225"
+  },
+  "marco-teórico.qmd": {
+    "marco-teórico.html": "151fccd9"
+  },
+  "metodología.qmd": {
+    "metodología.html": "68e4ac16"
+  },
+  "entrevistas.qmd": {
+    "entrevistas.html": "31706e2c"
+  },
+  "estudios.qmd": {
+    "estudios.html": "0d20fba9"
+  },
+  "referencias.qmd": {
+    "referencias.html": "68e404fa"
+  },
+  "discusión.qmd": {
+    "discusión.html": "15e09f4c"
+  },
+  "conclusiones.qmd": {
+    "conclusiones.html": "e811407f"
   }
 }

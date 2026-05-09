@@ -2,14 +2,19 @@ project:
   type: book
 
 book:
-  title: "Compartiendo peso: comunicación cinestésica y conexión interpersonal en la improvisación de contacto"
+  title: "Improvisando con(-)tacto: comunicación háptica y conexión interpersonal en la danza de improvisación de contacto"
   author: "Esteban Fredin Ortiz"
   date: "5/5/2025"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - introducción.qmd
+    - marco-teórico.qmd
+    - metodología.qmd
+    - entrevistas.qmd
+    - estudios.qmd
+    - discusión.qmd
+    - conclusiones.qmd
+    - referencias.qmd
 
 bibliography: references.bib
 
@@ -20,4 +25,3 @@ format:
     documentclass: scrreprt
 
 editor: visual
-
