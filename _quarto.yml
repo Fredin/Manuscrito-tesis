@@ -1,33 +1,36 @@
 project:
   type: book
+  output-dir: _rendered-files
 
 book:
-  title: "Afinando el punto de(l) contacto: consciencia y sintonización intercinestésicas en la danza de improvisación de contacto"
-  author:
-  - name: Esteban Fredin Ortiz
-    orcid: 0000-0002-1881-0314
-    corresponding: true
-    email: esteban.fredin@tec.mx
-    affiliations:
-      - Tecnológico de Monterrey, Escuela de Humanidades y Educación
+  title: |
+    El punto de(l) contacto: consciencia y sintonización intercinestésicas en la danza de improvisación de contacto
+  output-file: "manuscrito-tesis"
+  author: Esteban Fredin Ortiz
   date: last-modified
+  
   chapters:
     - index.qmd
-    - introducción.qmd
-    - marco_teórico.qmd
-    - metodología.qmd
-    - resultados.qmd
-    - discusión.qmd
-    - conclusiones.qmd
-    - referencias.qmd
-    - apéndice_entrevistas.qmd
+    - capítulos/1-introducción.qmd
+    - capítulos/2-marco-teórico.qmd
+    - capítulos/3-metodología.qmd
+    - capítulos/4-resultados.qmd
+    - capítulos/5-discusión.qmd
+    - capítulos/6-conclusiones.qmd
+    - capítulos/referencias.qmd
+    
+  appendices:
+    - apéndices/entrevistas.qmd
+    - apéndices/libro-de-códigos.qmd
+    - apéndices/código-fuente.qmd
 
-bibliography: references.bib
+bibliography: otros-documentos/references.bib
+csl: otros-documentos/apa-no-ampersand.csl
 
-format:
-  html:
-    theme: cosmo
-  pdf:
-    documentclass: scrreprt
+lang: es
 
-editor: visual
+format: 
+  docx:
+    reference-doc: otros-documentos/documento-de-referencia.docx
+
+editor: source
