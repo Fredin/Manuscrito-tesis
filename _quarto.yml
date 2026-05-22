@@ -33,4 +33,4 @@ format:
   docx:
     reference-doc: otros-documentos/documento-de-referencia.docx
 
-editor: source
+editor: visual
